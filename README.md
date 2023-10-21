@@ -21,6 +21,7 @@
         _id: book._id
     }, {
         $set: {
+            "description": "update description",
             "authors": "update authors"
         }
     })
